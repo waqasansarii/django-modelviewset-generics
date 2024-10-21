@@ -21,7 +21,6 @@ class ProductSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Products
-        # fields = "__all__"
         fields = ['name','id','category','supplier','category_id','supplier_id']
         
         # this function will run at last
